@@ -1,2 +1,7 @@
 // Sass の @import は非推奨（@use を使用）
 @use './Fonts.scss';
+
+#root {
+    // margin: 0;
+    // padding: 0;
+}
