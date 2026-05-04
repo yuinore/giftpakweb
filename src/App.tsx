@@ -1,11 +1,6 @@
-import "./App.css";
+import './App.css';
+import Root from '@src/components/Root';
 
-function App() {
-  return (
-    <div>
-      <h1>Hello World!</h1>
-    </div>
-  );
+export default function App() {
+  return <Root />;
 }
-
-export default App;
