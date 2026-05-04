@@ -1,4 +1,4 @@
-import type { ContributorSet } from "@src/types/ContributorSet";
+import type { ContributorSet } from '@src/types/ContributorSet';
 
 export const contributors: ContributorSet[] = [
   {

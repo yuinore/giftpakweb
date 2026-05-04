@@ -1,7 +1,7 @@
-import { birdBanner } from '@src/assets/banner/_bird_banner.png';
-import { argentBanner } from '@src/assets/banner/_argent_banner.png';
-import { cationBanner } from '@src/assets/banner/_cation_banner.png';
-import { prolineBanner } from '@src/assets/banner/_proline_banner.png';
+import birdBanner from '@src/assets/banner/_bird_banner.png';
+import argentBanner from '@src/assets/banner/_argent_banner.png';
+import cationBanner from '@src/assets/banner/_cation_banner.png';
+import prolineBanner from '@src/assets/banner/_proline_banner.png';
 
 import type { Song } from '@src/types/Song';
 
