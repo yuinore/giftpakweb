@@ -1,12 +1,10 @@
 import './DownloadButton.scss';
 
 interface DownloadButtonProps {
-  href?: string;
+  href: string;
 }
 
-export default function DownloadButton({
-  href = '#download',
-}: DownloadButtonProps) {
+export default function DownloadButton({ href }: DownloadButtonProps) {
   return (
     <a className="download-button" href={href}>
       <span className="download-button__highlight" aria-hidden="true" />

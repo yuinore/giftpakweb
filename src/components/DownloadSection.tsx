@@ -4,7 +4,7 @@ import './DownloadSection.scss';
 export default function DownloadSection() {
   return (
     <div className="download-section">
-      <DownloadButton />
+      <DownloadButton href="https://yuinore.moe/bms/yuta_giftpak.zip" />
 
       <div className="download-section__note">
         <span className="download-section__note-text">
