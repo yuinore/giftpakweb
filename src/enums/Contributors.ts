@@ -64,10 +64,10 @@ export const contributors: ContributorSet[] = [
     domainName: 'Playtesters',
     contributors: [
       {
-        name: 'ほげ',
+        name: 'えば',
       },
       {
-        name: 'fuga',
+        name: 'qodtjr',
       },
     ],
   },
