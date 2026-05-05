@@ -2,13 +2,40 @@
 
 .page-footer {
   @include Fonts.noto-sans-jp-regular;
-  margin: 1.5rem 1rem 0 rem;
+  margin: 1.5rem 1rem 0;
   padding-top: 1rem;
   text-align: center;
   font-size: 0.7rem;
   opacity: 0.8;
 
   p {
-    margin: 0;
+    margin: 0.75rem 0 0;
   }
+}
+
+.share-button {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.share-network {
+  display: flex;
+  align-items: center;
+}
+
+.share-network__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.share-network__button:hover {
+  transform: scale(1.1);
 }
