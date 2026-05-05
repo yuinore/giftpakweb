@@ -1,0 +1,45 @@
+@use '../Fonts.scss';
+
+.credit-section {
+  width: 100%;
+  margin: 25vh 0;
+}
+
+.credit-section__set {
+  text-align: center;
+  margin: 6rem 0 1.5rem 0;
+}
+
+.credit-section__heading {
+  @include Fonts.noto-sans-jp-regular;
+  margin: 2rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  display: inline-block;
+  min-width: 110px;
+  font-size: 0.75rem;
+  font-weight: 400; // h2 のデフォルトスタイルをリセットするために明示 (ただし mixin があるので必須ではない)
+  line-height: normal;
+  background: linear-gradient(
+    145deg,
+    rgba(45, 110, 210, 0.92) 0%,
+    rgba(28, 82, 175, 0.88) 45%,
+    rgba(22, 68, 150, 0.9) 100%
+  );
+  border-radius: 999px;
+  box-shadow:
+    0 1px 3px rgba(18, 50, 110, 0.22),
+    0 4px 12px rgba(18, 50, 110, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 4px rgba(255, 255, 255, 0.4),
+    inset 0 0 10px rgba(160, 210, 255, 0.7);
+}
+
+/* Chart の .song-chart-level-list__level と同系の半透明角丸 */
+.credit-section__name {
+  padding: 0.5rem 1em;
+  line-height: 1.35;
+  color: #1a3a6e;
+  // background: rgba(255, 255, 255, 0.8);
+  // border-radius: 0.35em;
+}

@@ -1,23 +1,28 @@
+import CreditSection from '@src/components/CreditSection';
+import DownloadSection from '@src/components/DownloadSection';
+import PageFooter from '@src/components/PageFooter';
+import PageHeader from '@src/components/PageHeader';
+import SongTable from '@src/components/SongTable';
 import VideoEmbed from '@src/components/VideoEmbed';
+import { contributors } from '@src/enums/Contributors';
 import './Root.scss';
 
 export default function Root() {
   return (
     <div className="root-container">
-      <h1 className="noto-sans-jp-thin">幸せの青い鳥 BMS Package 特設ページ</h1>
-      <VideoEmbed />
-      <h2>ダウンロード</h2>
-      <ul>
-        <li>ダウンロード 1</li>
-        <li>ダウンロード 1</li>
-        <li>ダウンロード 1</li>
-        <li>ダウンロード 1</li>
-        <li>ダウンロード 1</li>
-        <li>ダウンロード 1</li>
-        <li>ダウンロード 1</li>
-        <li>ダウンロード 1</li>
-        <li>ダウンロード 1</li>
-      </ul>
+      <PageHeader />
+
+      <div className="root-main">
+        <VideoEmbed />
+
+        <SongTable />
+
+        <CreditSection contributorSets={contributors} />
+
+        <DownloadSection />
+      </div>
+
+      <PageFooter />
     </div>
   );
 }

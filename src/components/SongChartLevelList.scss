@@ -1,0 +1,14 @@
+@use '../Fonts.scss';
+
+.song-chart-level-list__level {
+  display: inline-block;
+  margin: 0.1rem 0.25rem 0.1rem 0;
+  padding: 0.12em 0.5em;
+  line-height: 1.35;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 0.35em;
+}
+
+.song-chart-level-list__difficulty-symbol {
+  @include Fonts.noto-sans-jp-bold;
+}

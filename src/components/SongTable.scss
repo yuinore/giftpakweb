@@ -1,0 +1,56 @@
+@use '../Fonts.scss';
+
+.song-table__wrap {
+  max-width: 100%;
+  width: fit-content;
+  margin: 40vh auto 25vh auto;
+  overflow-x: auto;
+}
+
+.song-table__heading {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.song-table__outer,
+.song-table__inner {
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.song-table__cell--banner {
+  vertical-align: top;
+  padding: 0 0.75rem 1.75rem 0;
+}
+
+.song-table__cell--details {
+  vertical-align: top;
+  padding: 0 0 1rem 0;
+}
+
+.song-table__cell--kind,
+.song-table__cell--charts {
+  vertical-align: top;
+  padding: 0 0.75rem 0.4rem 0;
+}
+
+.song-table__cell--charts {
+  @include Fonts.archivo-black-regular;
+  font-size: 0.8rem;
+}
+
+.song-table__cell--kind {
+  @include Fonts.noto-sans-jp-regular;
+}
+
+.song-table__banner {
+  display: block;
+  border-radius: 0.35rem;
+  box-shadow: 4px 4px 8px rgba(49, 62, 84, 0.1);
+  // width: 300px;
+  // height: auto;
+  // aspect-ratio: 300 / 80;
+  max-width: 50vw;
+  min-width: 200px;
+}

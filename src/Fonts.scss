@@ -1,23 +1,37 @@
-/* Google Fonts - Noto Sans JP */
+/* Google Fonts */
 
 /* Noto Sans JP Font Classes */
-.noto-sans-jp-thin {
+@mixin noto-sans-jp-thin {
   font-family: 'Noto Sans JP', sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
 }
 
-.noto-sans-jp-regular {
+@mixin noto-sans-jp-regular {
   font-family: 'Noto Sans JP', sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-.noto-sans-jp-bold {
+@mixin noto-sans-jp-bold {
   font-family: 'Noto Sans JP', sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
+  font-style: normal;
+}
+
+/* Archivo Black */
+@mixin archivo-black-regular {
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Kiwi Maru */
+@mixin kiwi-maru-regular {
+  font-family: 'Kiwi Maru', serif;
+  font-weight: 400;
   font-style: normal;
 }

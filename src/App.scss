@@ -1,7 +1,16 @@
 // Sass の @import は非推奨（@use を使用）
 @use './Fonts.scss';
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #root {
-    // margin: 0;
-    // padding: 0;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  min-width: 480px;
+  @include Fonts.kiwi-maru-regular;
 }

@@ -1,0 +1,14 @@
+@use '../Fonts.scss';
+
+.page-footer {
+  @include Fonts.noto-sans-jp-regular;
+  margin: 1.5rem 1rem 0 rem;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.7rem;
+  opacity: 0.8;
+
+  p {
+    margin: 0;
+  }
+}

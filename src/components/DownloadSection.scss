@@ -1,0 +1,22 @@
+.download-section {
+  width: 100%;
+  margin: 25vh 0 max(15vh, 17vw) 0;
+}
+
+.download-section__note {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.download-section__note-text {
+  display: inline-block;
+  font-size: 0.7rem;
+  opacity: 0.35;
+  color: #1d2432;
+  padding: 0.1rem 0.5rem;
+
+  @media (min-width: 1000px) {
+    font-size: 0.9rem;
+    opacity: 0.65;
+  }
+}
